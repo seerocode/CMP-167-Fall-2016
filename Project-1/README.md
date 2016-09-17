@@ -1,0 +1,2 @@
+# Project 1 - Secret Message
+This java program asks the user to input a "secret message" and then outputs the number of characters in their message. A secret number is provided which is derived from a computation based on the number of characters in the message.
