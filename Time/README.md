@@ -1,0 +1,2 @@
+# Java time program
+This program calculates the amount of seconds that has passed since midnight (00:00 hours), the amount of seconds remaining in the day, and the percentage of the day that has elapsed.
