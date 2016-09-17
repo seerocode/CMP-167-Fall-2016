@@ -10,7 +10,7 @@ public class Time {
 		final double SEC_IN_MIN = 60.0; //Made final because the amount of seconds in a minute does not change
 		final double SEC_IN_HOUR = 3600.0; //Made final for the same reason above. The "60" denotes 60 minutes.
 		
-		final double SEC_SINCE_MN = (SEC_IN_HOUR * hour) + (SEC_IN_MIN * minute) + second; //Calculates the minutes since midnight, or 00:00
+		final double SEC_SINCE_MN = (SEC_IN_HOUR * hour) + (SEC_IN_MIN * minute) + second; //Calculates the seconds since midnight, or 00:00
 		final double SEC_IN_DAY = 24.0 * SEC_IN_HOUR; //Calculates the amount of seconds in a day; 24 stands for the hours in a day
 		
 		System.out.printf("The number of seconds since midnight is: %.0f\n", SEC_SINCE_MN);
