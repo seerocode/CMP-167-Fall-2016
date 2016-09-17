@@ -15,7 +15,7 @@ public class Time{
 		
 		System.out.printf("The number of seconds since midnight is: %d\n", SEC_SINCE_MN);
 		System.out.printf("The number of seconds remaining in the day is: %d\n", SEC_IN_DAY - SEC_SINCE_MN);
-		// Escape percent sign is %%. 100.0 * to move decimal two places and the %.0f format specifier is to truncate to the nearest whole number and remove decimal
+		// Escape percent sign is %%. 100.0 * to move decimal two places and the %.0f format specifier is to round to the nearest whole number and remove decimal
 		System.out.printf("The percentage of the day that has passed is: %.0f%%", (SEC_SINCE_MN * 100.0) / SEC_IN_DAY); 
 
 	}
