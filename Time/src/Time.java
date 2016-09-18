@@ -13,6 +13,7 @@ public class Time{
 		final int SEC_SINCE_MN = (SEC_IN_HOUR * hour) + (SEC_IN_MIN * minute) + second; //Calculates the seconds since midnight, or 00:00
 		final int SEC_IN_DAY = 24 * SEC_IN_HOUR; //Calculates the amount of seconds in a day; 24 stands for the hours in a day
 		
+		// The comma in %d, adds a comma to output
 		System.out.printf("The number of seconds since midnight is: %,d\n", SEC_SINCE_MN);
 		System.out.printf("The number of seconds remaining in the day is: %,d\n", SEC_IN_DAY - SEC_SINCE_MN);
 		// Escape percent sign is %%. Added format specifier %.0f since 100.0 is now read as a double number and not an integer as well as to round to the nearest whole number
