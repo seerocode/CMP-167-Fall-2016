@@ -5,7 +5,7 @@ public class Time{
 	public static void main(String[] args) {
 		
 		int hour = 21; //Represents 9 PM
-		int minute = 5; //Represents 9:05 PM
+		int minute = 05; //Represents 9:05 PM
 		int second = 33; //Represents 9:05:33 PM
 		
 		final int SEC_IN_MIN = 60; //Made final because the amount of seconds in a minute does not change
