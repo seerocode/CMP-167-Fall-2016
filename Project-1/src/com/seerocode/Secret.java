@@ -8,7 +8,7 @@ public class Secret {
 		Scanner sc = new Scanner(System.in); //Creates a new scanner
 		
 		System.out.print("Type in your secret message: ");
-		String message = sc.nextLine(); //Characters entered are stored in the message variable and goes to the next line
+		String message = sc.next(); //Characters entered are stored in the message variable 
 		
 		System.out.printf("The secret message has %d characters.\n", message.length()); //Prints the amount of characters in the user's input message
 		
