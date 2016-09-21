@@ -9,7 +9,7 @@ public class Secret {
 		
 		System.out.print("Type in your secret message: ");
 		//Characters entered are stored in the message variable 
-		String message = sc.next(); 
+		String message = sc.nextLine(); 
 		
 		//Prints the amount of characters in the user's input message
 		System.out.printf("Your secret message has %d characters.\n", message.length()); 
