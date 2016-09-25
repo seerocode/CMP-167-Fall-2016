@@ -24,7 +24,7 @@ public class GuessMyNumber {
 			userGuess = sc.nextInt();
 			System.out.printf("Your guess is: %d\n", userGuess);
 			
-			//Validate guess with if/else if
+			//Check guess with if/else if
 			if (userGuess == number) 
 				System.out.println("Wow, you're good! You guessed my number!"
 						+ "The number I was thinking of is: " + number
