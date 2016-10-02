@@ -48,7 +48,7 @@ To fix this, I needed to do the same thing I did with the userGuess variable: de
 
 I'm sure for a simple program and probably for final variables, same line is just fine. 
 
-Anyway, this is what the output looks like now:
+This is what the output looks like now when I guess 5 two times:
 
 ```java
 	I am thinking of a number between 1 and 100 (including both). Can you guess what it is?
@@ -70,3 +70,4 @@ Anyway, this is what the output looks like now:
 	I am thinking of a number between 1 and 100 (including both). Can you guess what it is?
 	Type a number: 
 ```
+Woohoo! It works! Looking into making this a little cleaner in the meantime.
