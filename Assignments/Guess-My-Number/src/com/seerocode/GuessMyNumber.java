@@ -15,7 +15,14 @@ public class GuessMyNumber {
 		//Declare variable to store guess outside of do loop so it can be called outside and inside
 		int userGuess;
 		
-		//A do loop (test at end instead of beginning like with while) to do the following:  
+		/**
+		 *  Do/while loop tests at the end instead of beginning like with while statements.
+		 *  Loop keeps running as long as userGuess does not equal number.
+		 * 
+		 *  Variable "number" has a random integer between 1 and 100
+		 *  The if/else statement checks the user's guess to see if it equals the random number
+		 *  and reruns the game if it does not.
+		 */
 		do {
 			//"number" returns the next random integer between 1 and 100.
 			number = random.nextInt(100) + 1;
