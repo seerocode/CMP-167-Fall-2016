@@ -7,22 +7,21 @@ public class GuessMyNumber {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		//Initialize new random. Sort of like the format of Scanner except no System.in for the parameter.
+		//Initialize new random. Sort of like the format of Scanner except no parameter
 		Random random = new Random(); 
 		
 		//Initialize random number variable
 		int number;
-		//Declare variable to store guess. Outside of do loop so it can be called outside and inside as well.
+		//Declare variable to store guess outside of do loop so it can be called outside and inside
 		int userGuess;
 		
 		//A do loop (test at end instead of beginning like with while) to do the following:  
 		do {
-			//The value for variable named "number" will be the next random integer between 1 and 100.
+			//"number" returns the next random integer between 1 and 100.
 			number = random.nextInt(100) + 1;
 			//Outputs
 			System.out.println("I am thinking of a number between 1 and 100 (including both). Can you guess what it is?");
 			System.out.println("Type a number: ");
-			//Initialize userGuess variable
 			userGuess = sc.nextInt();
 			System.out.printf("Your guess is: %d\n", userGuess);
 			
