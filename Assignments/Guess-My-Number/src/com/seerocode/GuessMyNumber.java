@@ -37,7 +37,7 @@ public class GuessMyNumber {
 				System.out.println("Wow, you're good! You guessed my number!"
 						+ "The number I was thinking of is: " + number
 						+ "\nYou were off by: " + (number - userGuess)
-						+ "\nLet's try again!\n");
+						+ "\nSee you later!\n");
 			else if (userGuess > number)
 				System.out.println("Too high! " 
 						+ "The number I was thinking of is: " + number
