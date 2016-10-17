@@ -14,9 +14,9 @@ public class FavSong {
 		System.out.print("OK, which artist sings that song?: ");
 		String artist = sc.nextLine();
 		
-		final int song_char_count = song.length();
-		final int artist_char_count = artist.length();
-		final int sum_of_counts = song_char_count + artist_char_count;
+		int song_char_count = song.length();
+		int artist_char_count = artist.length();
+		int sum_of_counts = song_char_count + artist_char_count;
 		
 		System.out.printf("%s sings %s\n", artist, song);
 		System.out.printf("%d characters in the song, %s.\n", song_char_count, song);
