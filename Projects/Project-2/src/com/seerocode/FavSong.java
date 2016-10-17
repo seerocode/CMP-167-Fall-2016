@@ -10,9 +10,11 @@ public class FavSong {
 		
 		System.out.print("What is the name of your favorite song?: ");
 		String song = sc.nextLine();
+		song = song.trim(); //trims whitespace before and after
 		
 		System.out.print("OK, which artist sings that song?: ");
 		String artist = sc.nextLine();
+		artist = artist.trim();
 		
 		int song_char_count = song.length();
 		int artist_char_count = artist.length();
