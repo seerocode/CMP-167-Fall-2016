@@ -23,7 +23,6 @@ public class HanSolo {
 	public static String setChildren(String[] children) {
 		return Arrays.toString(children);
 	}
-	
 
 	public static String listAffiliation() {
 		

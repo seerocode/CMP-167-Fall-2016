@@ -11,7 +11,8 @@ public class TheForceAwakens {
 		String[] children= {"Ben", "Jaina Solo", "Jacen Solo", "Anakin Solo"};
 		hs.setChildren(children);
 		
-		System.out.println(hs.listAffiliation());
+		System.out.println(hs.listAffiliation());	
 		
-}
+	}
+	
 }
