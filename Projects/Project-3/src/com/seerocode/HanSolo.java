@@ -25,16 +25,16 @@ public class HanSolo {
 	}
 	
 
-	public static void listAffiliation() {
+	public static String listAffiliation() {
 		
 		String[] affiliations = { "Rebel Alliance", "New Republic", "Resistance" };
+		return Arrays.toString(affiliations);
 
+//		System.out.println(Arrays.toString(affiliations));
+		
 //		for(int i = 0; i < affiliations.length; i++) {
 //			System.out.println(affiliations[i]);
 //		}
-
-			System.out.println(Arrays.toString(affiliations));
-
 		
 //		for(String affiliation: affiliations) {
 //			System.out.println(affiliation);
