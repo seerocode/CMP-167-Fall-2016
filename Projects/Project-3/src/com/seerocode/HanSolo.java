@@ -30,12 +30,15 @@ public class HanSolo {
 		String[] affiliations = { "Rebel Alliance", "New Republic", "Resistance" };
 		return Arrays.toString(affiliations);
 
+		//Alternate method for printing array provide method is changed to void
 //		System.out.println(Arrays.toString(affiliations));
 		
+		//Alternate method to print array provided method is changed to void
 //		for(int i = 0; i < affiliations.length; i++) {
 //			System.out.println(affiliations[i]);
 //		}
 		
+		//REMINDER: The following does not work because Java does not work this way.
 //		for(String affiliation: affiliations) {
 //			System.out.println(affiliation);
 //		}
