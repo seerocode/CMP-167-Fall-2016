@@ -6,7 +6,8 @@ public class HanSolo {
 	
 	private String name;
 	private String spouse;
-	private String children;
+	private String[] children;
+	private static String[] affiliation = { "Rebel Alliance", "New Republic", "Resistance" };
 
 	public HanSolo(String name) {
 		this.name = name;
@@ -24,13 +25,11 @@ public class HanSolo {
 	
 	//setter
 	public void setChildren(String[] children) {
-		this.children = Arrays.toString(children);
+		this.children = children;
 	}
 
 	public static String listAffiliation() {
-		
-		String[] affiliations = { "Rebel Alliance", "New Republic", "Resistance" };
-		return Arrays.toString(affiliations);
+		return Arrays.toString(affiliation);
 
 		//Alternate method for printing array provide method is changed to void
 //		System.out.println(Arrays.toString(affiliations));
