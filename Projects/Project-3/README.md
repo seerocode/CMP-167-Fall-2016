@@ -20,3 +20,38 @@ public class TheForceAwakens {
 
 ###Used:
 * Array utility
+
+####Note:
+In the future, you can right-click the code in TheForceAwakens having not created the HanSolo class and it will create the methods and constructor for you. Then, you can create the specific private instance variables you need, highlight them, and g to Source > Generate Setters & Getters. 
+
+This assignment was to teach us that we do not need to use everything in a class and how to create setters and getters.
+
+Setters = modifier methods that usually start with "setXxxxx" and have an parameter and are void. You would set a private variable to the parameter variable.
+
+Getters = return methods with no parameters that return a private instance variable. 
+
+Example:
+
+```
+	private String spouse;
+	private String[] children;
+	private static String[] affiliation = { "Rebel Alliance", "New Republic", "Resistance" };
+	
+	//setter
+	public void setSpouse(String spouse) { 
+		this.spouse = spouse;
+	}
+	
+	//setter
+	public void setChildren(String[] children) {
+		this.children = children;
+	}
+
+	//getter
+	public static String listAffiliation() {
+		return Arrays.toString(affiliation);
+	}
+	
+```
+
+
