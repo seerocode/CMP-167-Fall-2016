@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class HanSolo {
 	
-	private static String name;
-	private static String spouse;
+	private String name;
+	private String spouse;
+	private String children;
 
 	public HanSolo(String name) {
 		this.name = name;
@@ -16,12 +17,14 @@ public class HanSolo {
         return this.name;
     }
 	
-	public String setSpouse(String spouse) {
-		return this.spouse = spouse;
+	//setter
+	public void setSpouse(String spouse) { 
+		this.spouse = spouse;
 	}
 	
-	public static String setChildren(String[] children) {
-		return Arrays.toString(children);
+	//setter
+	public void setChildren(String[] children) {
+		this.children = Arrays.toString(children);
 	}
 
 	public static String listAffiliation() {
