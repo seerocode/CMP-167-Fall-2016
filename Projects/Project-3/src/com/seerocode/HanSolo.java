@@ -23,6 +23,8 @@ public class HanSolo {
 		this.spouse = spouse;
 	}
 	
+	//
+	
 	//setter
 	public void setChildren(String[] children) {
 		this.children = children;
