@@ -14,19 +14,19 @@ public class SieveOfEratosthenes {
 	    }
 
 	    //loops through array and checks if the counter
-	    // is less than the square root of n
+	    // is less than the square root of n (like the sieve)
 	    for (int num = 2; num < Math.sqrt(n); num++) { 
 	        if (isPrimeNum[num]) { //when num is in the isPrimeNum boolean array
-	        	
+	        	//sets a multiple of num by multiplying by 2, if the multiple is less than n, sets the number to false
+	        	//then sets the multiple to add num to it and continue
 	            for (int multipleOfNum = 2 * num; multipleOfNum < n; multipleOfNum = multipleOfNum + num) { 
 	                isPrimeNum[multipleOfNum] = false;
 	            }
 	        }
-
 	    }
 	    return isPrimeNum;
 	}
-
+	
 	public static void main(String[] args) {
 		System.out.print(Arrays.toString(sieve(6)));
 
